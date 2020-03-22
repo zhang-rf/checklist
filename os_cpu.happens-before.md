@@ -86,7 +86,7 @@ inline void OrderAccess::fence() {
 
 基于这些基本的`happens-before`操作，JUC下的各种类提供了更高级别的 `happens-before`操作。详见`java.base\share\classes\java\util\concurrent\package-info.java`
 
-# FAQ
+# 实验
 ```java
 public class Main {
 
