@@ -3,9 +3,9 @@ Java语言规范JLS-17：[https://docs.oracle.com/javase/specs/jls/se11/html/jls
 
 JSR-133开发者手册：[http://gee.cs.oswego.edu/dl/jmm/cookbook.html](http://gee.cs.oswego.edu/dl/jmm/cookbook.html)
 
-OpenJDK版本：jdk11-1ddf9a99e4ad
-
 x86存储结构：[https://mechanical-sympathy.blogspot.com/2013/02/cpu-cache-flushing-fallacy.html](https://mechanical-sympathy.blogspot.com/2013/02/cpu-cache-flushing-fallacy.html)
+
+OpenJDK版本：jdk11-1ddf9a99e4ad
 
 # Happens-before语义
 Java语言规范（JLS-17.4.5）定义了内存操作（例如，读取和写入共享变量）之间的关系。仅当满足`happens-before`关系时，才能保证一个线程写入的结果对另一线程可见。
