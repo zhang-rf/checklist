@@ -58,7 +58,7 @@ final void longAccumulate(long x, LongBinaryOperator fn,
         h = getProbe();
         wasUncontended = true;
     }
-    // cellsBusy锁碰撞
+    // cellsBusy锁冲突
     boolean collide = false;                // True if last slot nonempty
     done: for (;;) {
         Cell[] cs; Cell c; int n; long v;
