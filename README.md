@@ -1,10 +1,17 @@
 # Checklist
 
-zookeeper：Zookeeper核心功能源码阅读笔记
-os_cpu.happens-before：Java中Happens-before语义理解
-kafka：Kafka核心概念与配置理解
-juc.thread_pool_executor：Java线程池源码阅读笔记
-juc.long_adder：Java多线程工具LongAdder源码阅读笔记
-juc.concurrent_hash_map：Java多线程容器ConcurrentHashMap源码阅读笔记
-juc.abstract_queued_synchronizer：Java多线程基础容器AbstractQueuedSynchronizer源码阅读笔记
 ju.tree_map：Java容器TreeMap源码阅读笔记
+
+juc.abstract_queued_synchronizer：Java多线程基础容器AbstractQueuedSynchronizer源码阅读笔记
+
+juc.concurrent_hash_map：Java多线程容器ConcurrentHashMap源码阅读笔记
+
+juc.long_adder：Java多线程工具LongAdder源码阅读笔记
+
+juc.thread_pool_executor：Java线程池源码阅读笔记
+
+kafka：Kafka核心概念与配置理解
+
+os_cpu.happens-before：Java中Happens-before语义理解
+
+zookeeper：Zookeeper核心功能源码阅读笔记
